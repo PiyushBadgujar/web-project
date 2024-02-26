@@ -2,17 +2,20 @@
     margin: 0%;
     padding: 0%;
 }
+body logo nav{
+    position: fixed;
+}
 body{
-    background-color: rgb(9, 9, 9);
+    background-color:black;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(1, 1, 14);
+    background-color: black;
     padding: 22px;
-    box-shadow: 0px 2px 6px 2px rgb(13, 12, 12);
+    box-shadow: 0px 2px 6px 2px black;
     color: white;
 }
 nav ul li a{
@@ -25,10 +28,10 @@ nav ul{
     margin-top: 6px;
 
 }
-.logo{
-    font-size: 21px;
-    margin: 2px;
-    color: rgb(22, 237, 22);
+.logo img{
+    width: 150px;
+    margin-left: 18px;
+    
  }
 ul li button{
     width: 100px;
@@ -45,7 +48,7 @@ ul li button:hover{
     cursor: pointer;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
 
 body {
  
@@ -192,7 +195,7 @@ body {
 .ourprogram .crd img:hover{
     width: 103%;
 }
-  /*plan*/
+  /*plan of our website*/
   .Ourplan{
     display: flex;
     justify-content: center;
@@ -244,7 +247,7 @@ body {
     transition: 0.2s ease;
     width: 310px;
     height: 440px;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     font-size: 19px;
  } 
 /*read blog*/
@@ -257,10 +260,87 @@ body {
     width:300px;
     height: 400px;
     margin-inline: 22px;
-    background-color: gray;
+    background-color: rgb(75, 75, 75);
 
 
 }
 .Blogcard img{
     width:100%;
+    justify-content: center;
+}
+.Blogcard p{
+    margin-top: 22px;
+}
+.blogtext a{
+    text-decoration: none;
+    width:90px;
+    padding: 11px;
+    background-color: rgb(13, 241, 13);
+    color: white;
+    position: absolute;
+    cursor: pointer;
+
+}
+/* contact */
+.contactpage{
+    display: flex;
+    justify-content: center;
+
+}
+.contacttext{
+    margin-left: 33px;
+    color: rgb(8, 238, 8);
+    margin-top: 94px;
+    font-size: 32px;
+}
+.contactpage img{
+    width: 60%;
+    margin-right: 33px;
+}
+.contactus{
+    text-align: center;
+
+}
+.contactus input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+.contactus button{
+    width: 370px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-top: 22px;
+    background-color: rgb(24, 234, 13);
+    border-radius: 2px;
+
+
+}
+.contactus button:hover{
+    border: 2px solid purple;
+    background-color: transparent;
+    color: rgb(6, 239, 6);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top:33px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(241, 5, 182) ;
+}
+.footer .footerText{
+    margin-inline: 53px;
+    margin-top: 33px;
+
+}
+.footerText p{
+    margin-top: 11px;
+    
 }
